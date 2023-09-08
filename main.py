@@ -1,7 +1,7 @@
 import pandas
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split 
-dib=pandas.read_csv(r"C:\Users\dell\Desktop\Stream\dataset.csv")
+dib=pandas.read_csv(r"dataset.csv")
 Dec=DecisionTreeClassifier()
 print(dib.head(5))
 print(dib.info())
